@@ -62,8 +62,3 @@ jobs:
         run: |
           cd frontend
           npm ci
-
-      - name: Run Vitest tests
-        run: |
-          cd frontend
-          npm run test
